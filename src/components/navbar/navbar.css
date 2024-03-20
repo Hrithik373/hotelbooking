@@ -1,0 +1,40 @@
+.navbar {
+  height: 50px;
+  background: linear-gradient(to right, 
+  #FFA500, #191970, #8A2BE2); 
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: rgb(35, 5, 63);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo{
+  font-weight: 600;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px; /* To make it oval shaped */
+  background-color: transparent; /* Transparent background */
+  color: #00ccff; /* Neon blue text color */
+  border: 2px solid #00ccff; /* Neon blue border */
+  transition: color 0.3s ease, border-color 0.3s ease; /* Smooth transition for color and border-color */
+}
+
+.navButton:hover {
+  color: #000000; /* Neon light blue text color on hover */
+  border-color: #00e6ff; /* Neon light blue border color on hover */
+  background-color: #00e6ff; /* Neon light blue background color on hover */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
